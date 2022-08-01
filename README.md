@@ -5,3 +5,10 @@ Abstract- In this paper, we propose a novel loss function for training Generativ
 
 ## Prerequisites
 Python, NumPy, TensorFlow 2, SciPy, Matplotlib
+
+##Models
+python cumgan_gmm8.py --epochs 10000 --disc_iters 5 --beta 0 --gamma 0 --iteration 0 --sess_name gmm8: Toy dataset (8 Gaussians).
+python cumgan_swissroll.py --epochs 10000 --disc_iters 5 --beta 0 --gamma 0 --iteration 0 --sess_name gmm8: Toy dataset (Swiss roll).
+python cumgan_cifar_weak_dis.py --epochs 200000 --disc_iters 5 --mode wgan-gp --beta 0 --gamma 0 --iteration 0 --sess_name cifar_weak_conv_000: CIFAR10 data
+python cumgan_imagenet_resnet_weak_dis.py --epochs 500000 --disc_iters 5 --mode wgan-gp --beta 0 --gamma 0 --iteration 0 --sess_name imagenet_weak_resnet_000: ImageNET data
+The notebook simulation.ipynb contains some experimantal designs.
