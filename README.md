@@ -7,10 +7,12 @@ Abstract- In this paper, we propose a novel loss function for training Generativ
 Python, NumPy, TensorFlow 2, SciPy, Matplotlib
 
 ## Models
-\begin{itemize}
 
-  \item python cumgan_gmm8.py --epochs 10000 --disc_iters 5 --beta 0 --gamma 0 --iteration 0 --sess_name gmm8: Toy dataset (8 Gaussians).
-  \item python cumgan_swissroll.py --epochs 10000 --disc_iters 5 --beta 0 --gamma 0 --iteration 0 --sess_name gmm8: Toy dataset (Swiss roll).
-  \item python cumgan_cifar_weak_dis.py --epochs 200000 --disc_iters 5 --mode wgan-gp --beta 0 --gamma 0 --iteration 0 --sess_name cifar_weak_conv_000: CIFAR10 data
-  \item python cumgan_imagenet_resnet_weak_dis.py --epochs 500000 --disc_iters 5 --mode wgan-gp --beta 0 --gamma 0 --iteration 0 --sess_name imagenet_weak_resnet_000: ImageNET data
-\end{itemize}
+* python cumgan_gmm8.py --epochs 10000 --disc_iters 5 --beta 0 --gamma 0 --iteration 0 --sess_name gmm8: Toy dataset (8 Gaussians).
+* python cumgan_swissroll.py --epochs 10000 --disc_iters 5 --beta 0 --gamma 0 --iteration 0 --sess_name gmm8: Toy dataset (Swiss roll).
+* python cumgan_cifar_weak_dis.py --epochs 200000 --disc_iters 5 --mode wgan-gp --beta 0 --gamma 0 --iteration 0 --sess_name cifar_weak_conv_000: CIFAR10 data
+* python cumgan_imagenet_resnet_weak_dis.py --epochs 500000 --disc_iters 5 --mode wgan-gp --beta 0 --gamma 0 --iteration 0 --sess_name imagenet_weak_resnet_000: ImageNET data
+
+## DATASETS
+
+All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 and ImageNET data, you may download and store it inside data directory. Otherwise, you can change the data paths inside .py files.
