@@ -29,7 +29,7 @@ All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 a
 
  (β, γ) = (0.5, 0.5)           |  (β, γ) = (1, 0)             |   (β, γ) = (0, 0)                |  (β, γ) = (0.5, 0.5)
 :-----------------------------:|:----------------------------:|:--------------------------------:|:--------------------------:
-![Alt-txt](KLD_tmm6.gif)       |![Alt-txt](rKLD_tmm6.gif)      |                                  |![Alt-txt](Hellinger_tmm6.gif)
+![Alt-txt](KLD_tmm6.gif)       |![Alt-txt](rKLD_tmm6.gif)     |![Alt-txt](Wasserstein_tmm6.gif)! |[Alt-txt](Hellinger_tmm6.gif)
 
 
 
