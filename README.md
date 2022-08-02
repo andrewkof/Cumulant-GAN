@@ -45,14 +45,57 @@ All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 a
 (["Dipyoti's website"](https://dipjyoti92.github.io/))
 
 {
- "ref": "refs/heads/feature-a",
- "node_id": "MDM6UmVmcmVmcy9oZWFkcy9mZWF0dXJlLWE=",
- "url": "https://api.github.com/repos/octocat/Hello-World/git/refs/heads/feature-a",
- "object": {
- "type": "commit",
- "sha": "aa218f56b14c9653891f9e74264a383fa43fefbd",
- "url": "https://api.github.com/repos/octocat/Hello-World/git/commits/aa218f56b14c9653891f9e74264a383fa43fefbd"
- }
+  "type": "array",
+  "items": {
+    "title": "Git Reference",
+    "description": "Git references within a repository",
+    "type": "object",
+    "properties": {
+      "ref": {
+        "type": "string"
+      },
+      "node_id": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "object": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "sha": {
+            "description": "SHA for the reference",
+            "type": "string",
+            "minLength": 40,
+            "maxLength": 40,
+            "examples": [
+              "7638417db6d59f3c431d3e1f261cc637155684cd"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": [
+          "type",
+          "sha",
+          "url"
+        ]
+      }
+    },
+    "required": [
+      "ref",
+      "node_id",
+      "url",
+      "object"
+    ]
+  }
+}
 
 
 
