@@ -21,7 +21,7 @@ All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 a
 
 (β, γ) = (0, 1)            |(β, γ) = (1, 0)            |(β, γ) = (0, 0)                   |(β, γ) = (0.5, 0.5)
 :-------------------------:|:-------------------------:|:--------------------------------:|:-------------------------------:
-![Alt-txt](gifs/gmm8/KLD_2_contour.gif) |![Alt-txt](rKLD_3_dots.gif)|![Alt-txt](Wasserstein_3_dots.gif)|![Alt-txt](Hellinger_1_dots.gif)
+![Alt-txt](gifs/gmm8/KLD_2_contour.gif) |![Alt-txt](gifs/gmm8/rKLD_3_contour.gif)|![Alt-txt](gifs/gmm8/Wasserstein_3_contour.gif)|![Alt-txt](gifs/gmm8/Hellinger_1_contour.gif)
 
 
 # TMM
