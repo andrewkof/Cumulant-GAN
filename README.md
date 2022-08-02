@@ -31,7 +31,7 @@ All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 a
 :-----------------------------:|:----------------------------:|:--------------------------------:|:--------------------------:
 ![Alt-txt](gifs/tmm6/KLD_contour.gif)|![Alt-txt](gifs/tmm6/rKLD_contour.gif)|![Alt-txt](gifs/tmm6/Wasserstein_contour.gif) |![Alt-txt](gifs/tmm6/Hellinger_contour.gif)
 
-## Swiss roll dataset
+### Swiss roll
 ### The Swiss-roll dataset is a challenging example due to its complex manifold structure. Therefore the number of iterations required for training is increased by one order of magnitude.
 
 
