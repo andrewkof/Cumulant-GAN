@@ -1,3 +1,8 @@
+ (β, γ) = (0, 1)           |  (β, γ) = (1, 0)           |   (β, γ) = (0, 0)                |  (β, γ) = (0.5, 0.5)
+:-------------------------:|:-------------------------: |:--------------------------------:|:--------------------------:
+![Alt-txt](KLD_2_dots.gif) |![Alt-txt](rKLD_3_dots.gif) |![Alt-txt](Wasserstein_3_dots.gif)|![Alt-txt](Hellinger_1_dots.gif)
+
+
 # Cumulant-GAN
 Code for reproducing experiments in "Cumulant GAN".
 
