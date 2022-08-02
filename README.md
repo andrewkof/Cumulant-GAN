@@ -44,7 +44,16 @@ All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 a
 * Dipjyoti Paul, who implemented the experiments in TensorFlow 1
 (["Dipyoti's website"](https://dipjyoti92.github.io/))
 
-
+  {
+    "ref": "refs/heads/feature-a",
+    "node_id": "MDM6UmVmcmVmcy9oZWFkcy9mZWF0dXJlLWE=",
+    "url": "https://api.github.com/repos/octocat/Hello-World/git/refs/heads/feature-a",
+    "object": {
+      "type": "commit",
+      "sha": "aa218f56b14c9653891f9e74264a383fa43fefbd",
+      "url": "https://api.github.com/repos/octocat/Hello-World/git/commits/aa218f56b14c9653891f9e74264a383fa43fefbd"
+    }
+  }
 
 
 
