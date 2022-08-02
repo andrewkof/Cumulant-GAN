@@ -16,7 +16,7 @@ Python, NumPy, TensorFlow 2, SciPy, Matplotlib
 
 All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 and ImageNET data, you may download and store it inside data directory. Otherwise, you can change the data paths inside .py files.
 
-## GMM8 dataset
+## GMM8
 ### The target distribution is a mixture of 8 equiprobable and equidistant-from-the-origin Gaussian random variables.
 
 (β, γ) = (0, 1)            |(β, γ) = (1, 0)            |(β, γ) = (0, 0)                   |(β, γ) = (0.5, 0.5)
@@ -24,14 +24,14 @@ All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 a
 ![Alt-txt](gifs/gmm8/KLD_2_contour.gif) |![Alt-txt](gifs/gmm8/rKLD_3_contour.gif)|![Alt-txt](gifs/gmm8/Wasserstein_3_contour.gif)|![Alt-txt](gifs/gmm8/Hellinger_1_contour.gif)
 
 
-## TMM6 dataset
+## TMM6
 ### The target distribution is a mixture of 6 equiprobable Student’s t distributions. The characteristic property of this distribution is that it is heavy-tailed. Thus samples can be observed far from the mean value.
 
  (β, γ) = (0, 1)           |  (β, γ) = (1, 0)             |   (β, γ) = (0, 0)                |  (β, γ) = (0.5, 0.5)
 :-----------------------------:|:----------------------------:|:--------------------------------:|:--------------------------:
 ![Alt-txt](gifs/tmm6/KLD_contour.gif)|![Alt-txt](gifs/tmm6/rKLD_contour.gif)|![Alt-txt](gifs/tmm6/Wasserstein_contour.gif) |![Alt-txt](gifs/tmm6/Hellinger_contour.gif)
 
-### Swiss roll
+## Swiss roll
 ### The Swiss-roll dataset is a challenging example due to its complex manifold structure. Therefore the number of iterations required for training is increased by one order of magnitude.
 
 
