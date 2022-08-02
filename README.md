@@ -16,9 +16,9 @@ Python, NumPy, TensorFlow 2, SciPy, Matplotlib
 
 All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 and ImageNET data, you may download and store it inside data directory. Otherwise, you can change the data paths inside .py files.
 
-* GMM
-** The target distribution is a mixture of 8 equiprobable and equidistant-from-the-origin Gaussian random variables.
+# GMM
+### The target distribution is a mixture of 8 equiprobable and equidistant-from-the-origin Gaussian random variables.
 
-*** (β, γ) = (0, 1)           |  (β, γ) = (1, 0)           |   (β, γ) = (0, 0)                |  (β, γ) = (0.5, 0.5)
+ (β, γ) = (0, 1)           |  (β, γ) = (1, 0)           |   (β, γ) = (0, 0)                |  (β, γ) = (0.5, 0.5)
 :-------------------------:|:-------------------------: |:--------------------------------:|:--------------------------:
 ![Alt-txt](KLD_2_dots.gif) |![Alt-txt](rKLD_3_dots.gif) |![Alt-txt](Wasserstein_3_dots.gif)|![Alt-txt](Hellinger_1_dots.gif)
