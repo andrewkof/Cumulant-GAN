@@ -41,7 +41,7 @@ All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 a
 ![Alt-txt](gifs/swiss_roll/SwissRoll_KLD_contour.gif)|![Alt-txt](gifs/swiss_roll/SwissRoll_rKLD_contour.gif)|![Alt-txt](gifs/swiss_roll/SwissRoll_Wasserstein_contour.gif) |![Alt-txt](gifs/swiss_roll/SwissRoll_Hellinger_contour.gif)
 
 # References
-* Dipjyoti Paul, who implement these experiments in TensorFlow 1
+* Dipjyoti Paul, who implemented the experiments in TensorFlow 1
 (["Dipyoti's website"](https://dipjyoti92.github.io/))
 
 
