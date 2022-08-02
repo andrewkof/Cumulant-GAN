@@ -16,5 +16,4 @@ Python, NumPy, TensorFlow 2, SciPy, Matplotlib
 
 All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 and ImageNET data, you may download and store it inside data directory. Otherwise, you can change the data paths inside .py files.
 
-![Alt-txt](KLD_2_dots.gif)
-![Alt-txt](KLD_3_dots.gif)
+![Alt-txt](KLD_2_dots.gif) ![Alt-txt](rKLD_3_dots.gif)
