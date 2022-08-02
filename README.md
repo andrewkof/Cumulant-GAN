@@ -31,6 +31,10 @@ All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 a
 :-----------------------------:|:----------------------------:|:--------------------------------:|:--------------------------:
 ![Alt-txt](KLD_tmm6.gif)       |![Alt-txt](rKLD_tmm6.gif)     |![Alt-txt](Wasserstein_tmm6.gif) |![Alt-txt](Hellinger_tmm6.gif)
 
+# Swiss_roll
+### The Swiss-roll dataset is a challenging example due to its complex manifold structure. Therefore the number of iterations required for training is increased by one order of magnitude (100k Iterations
+
+
 
 
 
