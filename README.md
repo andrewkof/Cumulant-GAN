@@ -44,58 +44,6 @@ All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 a
 * Dipjyoti Paul, who implemented the experiments in TensorFlow 1
 (["Dipyoti's website"](https://dipjyoti92.github.io/))
 
-{
-  "type": "array",
-  "items": {
-    "title": "Git Reference",
-    "description": "Git references within a repository",
-    "type": "object",
-    "properties": {
-      "ref": {
-        "type": "string"
-      },
-      "node_id": {
-        "type": "string"
-      },
-      "url": {
-        "type": "string",
-        "format": "uri"
-      },
-      "object": {
-        "type": "object",
-        "properties": {
-          "type": {
-            "type": "string"
-          },
-          "sha": {
-            "description": "SHA for the reference",
-            "type": "string",
-            "minLength": 40,
-            "maxLength": 40,
-            "examples": [
-              "7638417db6d59f3c431d3e1f261cc637155684cd"
-            ]
-          },
-          "url": {
-            "type": "string",
-            "format": "uri"
-          }
-        },
-        "required": [
-          "type",
-          "sha",
-          "url"
-        ]
-      }
-    },
-    "required": [
-      "ref",
-      "node_id",
-      "url",
-      "object"
-    ]
-  }
-}
 
 
 
