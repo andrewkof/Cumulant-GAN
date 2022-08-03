@@ -39,7 +39,7 @@ Python, NumPy, TensorFlow 2, SciPy, Matplotlib
 
 # References
 ```
-@inproceedings{Pantazis2022
+@inproceedings{Pantazis2022,
   author    = {"Yannis Pantazis, Dipjyoti Paul, Michail Fasoulakis, Yannis Stylianou and Markos Katsoulakis"},
   title     = {"Cumulant GAN"},
   journal   = {arXiv preprint arXiv:2006.06625},
