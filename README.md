@@ -19,9 +19,9 @@ All the toy data exmaples are in data directory. For publicly avaiable CIFAR10 a
 ## GMM8
 ### The target distribution is a mixture of 8 equiprobable and equidistant-from-the-origin Gaussian random variables.
 
-Title                                |(β, γ) = (0, 1)                         |(β, γ) = (1, 0)            |(β, γ) = (0.5, 0.5)
+Wasserstein                          |Kullback-Leibler Divergence             |(β, γ) = (1, 0)            |(β, γ) = (0.5, 0.5)
 :-----------------------------------:|:--------------------------------------:|:-------------------------:|:-------------------------------:
-![Alt-txt](gifs/gmm8/Wasserstein.gif)|![Alt-txt](gifs/gmm8/KLD_2_contour.gif) |![Alt-txt](gifs/gmm8/rKLD_3_contour.gif)|![Alt-txt](gifs/gmm8/Hellinger_1_contour.gif)
+![Alt-txt](gifs/gmm8/Wasserstein.gif)|![Alt-txt](gifs/gmm8/KLD.gif) |![Alt-txt](gifs/gmm8/rKLD_3_contour.gif)|![Alt-txt](gifs/gmm8/Hellinger_1_contour.gif)
 
 
 
