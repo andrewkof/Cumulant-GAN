@@ -8,12 +8,9 @@ Demostration examples from [Cumulant GAN](https://arxiv.org/abs/2006.06625) pape
 ## Prerequisites
 Python, NumPy, TensorFlow 2, SciPy, Matplotlib
 
-## How to run the models
 
-* python cumgan_gmm8.py --epochs 10000 --disc_iters 5 --beta 0 --gamma 0 --iteration 0 --sess_name gmm8: Toy dataset (8 Gaussians).
-* python cumgan_swissroll.py --epochs 10000 --disc_iters 5 --beta 0 --gamma 0 --iteration 0 --sess_name gmm8: Toy dataset (Swiss roll).
-* python cumgan_tmm6.py --epochs 10000 --disc_iters 5 --beta 0 --gamma 0 --iteration 0 --sess_name gmm8: Toy dataset (6 t-Students)
 
+![Alt-txt](figure.png)
 
 ## GMM8
 ### The target distribution is a mixture of 8 equiprobable and equidistant-from-the-origin Gaussian random variables.
@@ -41,12 +38,15 @@ Python, NumPy, TensorFlow 2, SciPy, Matplotlib
 ![Alt-txt](gifs/swiss_roll/SwissRoll_KLD_contour.gif)|![Alt-txt](gifs/swiss_roll/SwissRoll_rKLD_contour.gif)|![Alt-txt](gifs/swiss_roll/SwissRoll_Wasserstein_contour.gif) |![Alt-txt](gifs/swiss_roll/SwissRoll_Hellinger_contour.gif)
 
 # References
-* Dipjyoti Paul, who implemented the experiments in TensorFlow 1
-(["Dipyoti's website"](https://dipjyoti92.github.io/))
-
-
-
-
+```
+@inproceedings{Pantazis2022
+  author    = {"Yannis Pantazis, Dipjyoti Paul, Michail Fasoulakis, Yannis Stylianou and Markos Katsoulakis"},
+  title     = {"Cumulant GAN"},
+  journal   = {arXiv preprint arXiv:2006.06625},
+  year      = {2022},
+  publisher = {"IEEE Trans on Neural Networks & Learning Systems"}
+}
+```
 
 
 
