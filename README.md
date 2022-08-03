@@ -10,7 +10,7 @@ Python, NumPy, TensorFlow 2, SciPy, Matplotlib
 
 
 
-![Alt-txt](figure.png)
+![Alt-txt](beta_gamma_plane_R1-1.pdf)
 
 ## GMM8
 ### The target distribution is a mixture of 8 equiprobable and equidistant-from-the-origin Gaussian random variables.
