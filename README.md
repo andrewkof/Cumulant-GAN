@@ -28,10 +28,6 @@ controlled behavior.
 
 # Visualized Examples
 
-![Alt-txt](gifs/gmm8/gmm86dd0_contour.gif)
-![Alt-txt](gifs/gmm8/gmm8_500_contour.gif)
-![Alt-txt](gifs/gmm8/gmm8_1000_contour.gif)
-
 ## GMM8
 ### The target distribution is a mixture of 8 equiprobable and equidistant-from-the-origin Gaussian random variables.
 
