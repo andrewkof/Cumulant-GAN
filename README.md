@@ -9,9 +9,22 @@ Demostration examples from [Cumulant GAN](https://arxiv.org/abs/2006.06625) pape
 Python, NumPy, TensorFlow 2, SciPy, Matplotlib
 
 
-
+## Special cases of cumulant GAN
 ![Alt-txt](figure.png)
 
+Line defined by β + γ = 1 has a point symmetry. The central point, (0.5,0.5)
+corresponds to the Hellinger distance. For each point, (α, 1 − α), there is a symmetric one, i.e., (1 − α, α), which
+has the same distance from the symmetry point. The respective divergences have reciprocal probability ratios (e.g.,
+KLD & reverse KLD, χ^2-divergence & reverse χ^2-divergence, etc.). Each point on the ray starting at the origin and
+pass through the point (α, 1 − α) also corresponds to (scaled) Rényi divergence of order α. These half-lines are called
+d-rays.
+
+
+KLD minimization that corresponds to (β, γ) = (0, 1) tends to cover all modes while reverse KLD that
+corresponds to (β, γ) = (1, 0) tends to select a subset of them. This is particularly evident when the number
+of iterations is between 500 and 2000. Hellinger distance minimization produces samples with statistics
+that lie between KLD and reverse KLD minimization while Wasserstein distance minimization has a less
+controlled behavior. It is also noteworthy that reverse KLD was not able to fully cover all the modes after 10K iterations.
 ## GMM8
 ### The target distribution is a mixture of 8 equiprobable and equidistant-from-the-origin Gaussian random variables.
 
