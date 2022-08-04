@@ -24,7 +24,8 @@ KLD minimization that corresponds to (β, γ) = (0, 1) tends to cover all modes 
 corresponds to (β, γ) = (1, 0) tends to select a subset of them. This is particularly evident when the number
 of iterations is between 500 and 2000. Hellinger distance minimization produces samples with statistics
 that lie between KLD and reverse KLD minimization while Wasserstein distance minimization has a less
-controlled behavior. It is also noteworthy that reverse KLD was not able to fully cover all the modes after 10K iterations.
+controlled behavior.
+
 ## GMM8
 ### The target distribution is a mixture of 8 equiprobable and equidistant-from-the-origin Gaussian random variables.
 
