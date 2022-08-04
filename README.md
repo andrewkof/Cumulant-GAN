@@ -31,9 +31,9 @@ controlled behavior.
 ## GMM8
 ### The target distribution is a mixture of 8 equiprobable and equidistant-from-the-origin Gaussian random variables.
 
-|Wasserstein<br />(β, γ) = (0, 0)    |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)|(β, γ) = (0.5, 0.5)
+|Wasserstein<br />(β, γ) = (0, 0)    |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)|Hellinger <br />(β, γ) = (0.5, 0.5)
 :-----------------------------------:|:-----------------------------------------------:|:-------------------------:|:-------------------------------:
-![Alt-txt](gifs/gmm8/Wass.gif)|![Alt-txt](gifs/gmm8/rKLD.gif)|![Alt-txt](gifs/gmm8/rKLD.gif)|![Alt-txt](gifs/gmm8/rKLD.gif)
+![Alt-txt](gifs/gmm8/Wass.gif)|![Alt-txt](gifs/gmm8/KLD.gif)|![Alt-txt](gifs/gmm8/rKLD.gif)|![Alt-txt](gifs/gmm8/rKLD.gif)
 
 
 ## TMM6
