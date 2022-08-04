@@ -33,7 +33,7 @@ controlled behavior.
 
 |Wasserstein<br />(β, γ) = (0, 0)    |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|(β, γ) = (1, 0)            |(β, γ) = (0.5, 0.5)
 :-----------------------------------:|:-----------------------------------------------:|:-------------------------:|:-------------------------------:
-![Alt-txt](gifs/gmm8/Wass.gif)|![Alt-txt](gifs/gmm8/KLD.gif)                    |![Alt-txt](gifs/gmm8/rKLD_3_contour.gif)|![Alt-txt](gifs/gmm8/Hellinger_1_contour.gif)
+![Alt-txt](gifs/gmm8/Wass.gif)|![Alt-txt](gifs/gmm8/KLD_7.gif)                    |![Alt-txt](gifs/gmm8/rKLD_3_contour.gif)|![Alt-txt](gifs/gmm8/Hellinger_1_contour.gif)
 
 
 ## TMM6
