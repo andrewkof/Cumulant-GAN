@@ -35,7 +35,7 @@ controlled behavior.
 :-----------------------------------:|:-----------------------------------------------:|:-------------------------:|:-------------------------------:
 ![Alt-txt](gifs/gmm8/Wasserstein.gif)|![Alt-txt](gifs/gmm8/KLD.gif)                    |![Alt-txt](gifs/gmm8/rKLD_3_contour.gif)|![Alt-txt](gifs/gmm8/Hellinger_1_contour.gif)
 
-
+![Alt-txt](gifs/gmm8/new_gmm8_contour.gif)
 
 ## TMM6
 ### The target distribution is a mixture of 6 equiprobable Student’s t distributions. The characteristic property of this distribution is that it is heavy-tailed. Thus samples can be observed far from the mean value.
