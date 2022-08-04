@@ -26,6 +26,7 @@ of iterations is between 500 and 2000. Hellinger distance minimization produces 
 that lie between KLD and reverse KLD minimization while Wasserstein distance minimization has a less
 controlled behavior.
 
+# Visualized Examples
 ## GMM8
 ### The target distribution is a mixture of 8 equiprobable and equidistant-from-the-origin Gaussian random variables.
 
