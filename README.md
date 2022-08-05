@@ -21,8 +21,7 @@ d-rays.
 
 
 KLD minimization that corresponds to (β, γ) = (0, 1) tends to cover all modes while reverse KLD that
-corresponds to (β, γ) = (1, 0) tends to select a subset of them. This is particularly evident when the number
-of iterations is between 500 and 2000. Hellinger distance minimization produces samples with statistics
+corresponds to (β, γ) = (1, 0) tends to select a subset of them. Hellinger distance minimization produces samples with statistics
 that lie between KLD and reverse KLD minimization while Wasserstein distance minimization has a less
 controlled behavior.
 
