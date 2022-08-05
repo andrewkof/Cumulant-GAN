@@ -39,9 +39,9 @@ controlled behavior.
 ## TMM6
 ### The target distribution is a mixture of 6 equiprobable Student’s t distributions. The characteristic property of this distribution is that it is heavy-tailed. Thus samples can be observed far from the mean value.
 
- (β, γ) = (0, 1)           |  (β, γ) = (1, 0)             |   (β, γ) = (0, 0)                |  (β, γ) = (0.5, 0.5)
-:-----------------------------:|:----------------------------:|:--------------------------------:|:--------------------------:
-![Alt-txt](gifs/tmm6/KLD_contour.gif)|![Alt-txt](gifs/tmm6/rKLD_contour.gif)|![Alt-txt](gifs/tmm6/Wasserstein_contour.gif) |![Alt-txt](gifs/tmm6/Hellinger_contour.gif)
+ Wasserstein<br />(β, γ) = (0, 0) |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)                | Hellinger <br />(β, γ) = (0.5, 0.5)
+:--------------------------------:|:-----------------------------------------------:|:--------------------------------:|:--------------------------:
+![Alt-txt](gifs/tmmt6/Wasserstein.gif)|![Alt-txt](gifs/tmmt6/KLD.gif)|![Alt-txt](gifs/tmmt6/rKLD.gif) |![Alt-txt](gifs/tmmt6/Hellinger.gif)
 
 ## Swiss roll
 ### The Swiss-roll dataset is a challenging example due to its complex manifold structure. Therefore the number of iterations required for training is increased by one order of magnitude.
