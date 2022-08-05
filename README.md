@@ -26,19 +26,19 @@ that lie between KLD and reverse KLD minimization while Wasserstein distance min
 controlled behavior.
 
 # Visualized Examples
-
 ## GMM8
 ### The target distribution is a mixture of 8 equiprobable and equidistant-from-the-origin Gaussian random variables.
 
-|Wasserstein<br />(β, γ) = (0, 0)    |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)|Hellinger <br />(β, γ) = (0.5, 0.5)
+|Wasserstein <br />(β, γ) = (0, 0)    |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)|Hellinger <br />(β, γ) = (0.5, 0.5)
 :-----------------------------------:|:-----------------------------------------------:|:-------------------------:|:-------------------------------:
 ![Alt-txt](gifs/gmm8/Wass.gif)|![Alt-txt](gifs/gmm8/KLD.gif)|![Alt-txt](gifs/gmm8/rKLD.gif)|![Alt-txt](gifs/gmm8/Hellinger.gif)
+
 
 
 ## TMM6
 ### The target distribution is a mixture of 6 equiprobable Student’s t distributions. The characteristic property of this distribution is that it is heavy-tailed. Thus samples can be observed far from the mean value.
 
- Wasserstein<br />(β, γ) = (0, 0) |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)                | Hellinger <br />(β, γ) = (0.5, 0.5)
+ Wasserstein<br />(β, γ) = (0, 0) |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)                | Hellinger Distance <br />(β, γ) = (0.5, 0.5)
 :--------------------------------:|:-----------------------------------------------:|:--------------------------------:|:--------------------------:
 ![Alt-txt](gifs/tmmt6/Wasserstein.gif)|![Alt-txt](gifs/tmmt6/KLD.gif)|![Alt-txt](gifs/tmmt6/rKLD.gif) |![Alt-txt](gifs/tmmt6/Hellinger.gif)
 
