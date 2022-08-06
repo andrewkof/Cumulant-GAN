@@ -31,7 +31,7 @@ controlled behavior.
 
 |Wasserstein <br />(β, γ) = (0, 0)    |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)|-4log(1-Hellinger^2) <br />(β, γ) = (0.5, 0.5)
 :-----------------------------------:|:-----------------------------------------------:|:-------------------------:|:-------------------------------:
-![Alt-txt](gifs/gmm8/Wass.gif)|![Alt-txt](gifs/gmm8/KLD.gif)|![Alt-txt](gifs/gmm8/.gif)|![Alt-txt](gifs/gmm8/Hellinger.gif)
+![Alt-txt](gifs/gmm8/Wass.gif)|![Alt-txt](gifs/gmm8/KLD.gif)|![Alt-txt](gifs/gmm8/rKLD.gif)|![Alt-txt](gifs/gmm8/Hellinger.gif)
 
 
 
