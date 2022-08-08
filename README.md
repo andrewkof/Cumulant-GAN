@@ -40,7 +40,7 @@ controlled behavior.
 
 Wasserstein<br />(β, γ) = (0, 0) |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)            |-4log(1-Hellinger^2) <br />(β, γ) = (0.5, 0.5)
 :--------------------------------:|:-----------------------------------------------:|:--------------------------------:|:--------------------------:
-![Alt-txt](gifs/tmmt6/)|![Alt-txt](gifs/tmmt6/)|![Alt-txt](gifs/tmmt6/rKLD.gif) |![Alt-txt](gifs/tmmt6/)
+![Alt-txt](gifs/tmmt6/Wasserstein.gif)|![Alt-txt](gifs/tmmt6/KLD.gif)|![Alt-txt](gifs/tmmt6/rKLD.gif) |![Alt-txt](gifs/tmmt6/Hellinger.gif)
 
 ## Swiss roll
 ### The Swiss-roll dataset is a challenging example due to its complex manifold structure. Therefore the number of iterations required for training is increased by one order of magnitude.
