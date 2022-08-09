@@ -51,7 +51,7 @@ Wasserstein<br />(β, γ) = (0, 0) |Kullback-Leibler Divergence <br />(β, γ) =
 
  Wasserstein<br />(β, γ) = (0, 0)|Kullback-Leibler Divergence <br />(β, γ) = (0, 1) |Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)|-4log(1-Hellinger^2) <br />(β, γ) = (0.5, 0.5)
 :---------------------------------------------------:|:------------------------------------------------:|:--------------------------------:|:--------------------------:
-![Alt-txt](gifs/swiss_roll/SwissRoll_Wasserstein_contour.gif) | ![Alt-txt](gifs/swiss_roll/SwissRoll_KLD_contour.gif)|![Alt-txt](gifs/swiss_roll/SwissRoll_rKLD_contour.gif)|![Alt-txt](gifs/swiss_roll/SwissRoll_Hellinger_contour.gif)
+![Alt-txt](gifs/swiss_roll/Wasserstein.gif) | ![Alt-txt](gifs/swiss_roll/KLD.gif)|![Alt-txt](gifs/swiss_roll/rKLD.gif)|![Alt-txt](gifs/swiss_roll/Hellinger.gif)
 
 
 # Run Examples
