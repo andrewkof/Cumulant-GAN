@@ -61,6 +61,7 @@ To reproduce the achieved results run the main.py script with the corresponding 
 | `--beta`   | 0.0            | [float] cumulant GAN beta parameter             |
 | `--gamma`  | 0.0            | [float] cumulant GAN gamma parameter            |
 
+
 # References
 ```
 @inproceedings{Pantazis2022,
