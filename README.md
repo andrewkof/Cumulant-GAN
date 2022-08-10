@@ -62,7 +62,7 @@ To reproduce the achieved results run the main.py script with the corresponding 
 | `--epochs` | 10000          | [int] how many generator iterations to train for|-
 | `--beta`   | 0.0            | [float] cumulant GAN beta parameter             |-
 | `--gamma`  | 0.0            | [float] cumulant GAN gamma parameter            |-
-| `--data`   | 'gmm8'         | [str] Target data                               |'gmm8', 'tmm6', 'swissroll'
+| `--data`   | 'gmm8'         | [str] data target                               |'gmm8', 'tmm6', 'swissroll'
 
 
 # References
