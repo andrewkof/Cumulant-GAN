@@ -1,4 +1,3 @@
-Under Construction
 
 # Mode Covering versus Mode Selection
 Demostration examples from [Cumulant GAN](https://arxiv.org/abs/2006.06625) paper.
