@@ -55,7 +55,7 @@ Wasserstein<br />(β, γ) = (0, 0) |Kullback-Leibler Divergence <br />(β, γ) =
 
 
 # Run Examples
-To reproduce the achieved results run the main.py script with the corresponding arguments.
+To reproduce the achieved results run the [main.py](main.py) script with the corresponding arguments.
 
 | Argument   | Default Value  | Info                                            |Choices
 | ---------- | -------------- | ----------------------------------------------- |--------------------------------------|
