@@ -1,7 +1,7 @@
 """
 @author: andrewkof
 
-example run:
+Run example:
 
 python3 main.py --epochs=10000 --beta=0.5 --gamma=0.5 --data='gmm8'
 
