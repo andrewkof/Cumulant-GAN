@@ -2,10 +2,11 @@
 @author: andrewkof
 
 Run example:
-
 python3 main.py --epochs=10000 --beta=0.5 --gamma=0.5 --data='gmm8'
 
 Reproduces Hellinger case with gmm8 data target.
+
+Visit "Run examples" section of README for more info about the default values and choices.
 """
 
 
