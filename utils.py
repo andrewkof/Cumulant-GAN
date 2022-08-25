@@ -2,6 +2,7 @@
 @author: andrewkof
 
 Auxiliary functions.
+
 """
 import os
 import csv
