@@ -56,7 +56,7 @@ Wasserstein<br />(β, γ) = (0, 0) |Kullback-Leibler Divergence <br />(β, γ) =
 
 # Run Examples
 To reproduce the achieved results run the [`main.py`](main.py) script with the corresponding arguments.
-The output is a directory with some checkpoints during the traininng proccess, the corresponding plots of these datasets and finally a gif that visualizes the whole training.
+The output is a directory with some checkpoints during the traininng proccess, the corresponding plots and finally a gif that visualizes the whole training.
 
 | Argument   | Default Value  | Info                                            |Choices
 | ---------- | -------------- | ----------------------------------------------- |--------------------------------------|
