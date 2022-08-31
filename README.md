@@ -68,13 +68,13 @@ The output is a directory with some checkpoints during the traininng proccess, t
 
 # References
 ```
-@inproceedings{Pantazis2022,
-  author    = {"Yannis Pantazis, Dipjyoti Paul, Michail Fasoulakis, Yannis Stylianou and Markos Katsoulakis"},
-  title     = {"Cumulant GAN"},
-  journal   = {arXiv preprint arXiv:2006.06625},
-  year      = {2022},
-  publisher = {"IEEE Trans on Neural Networks & Learning Systems"}
-}
+@ARTICLE{9750393,
+  author={Pantazis, Yannis and Paul, Dipjyoti and Fasoulakis, Michail and Stylianou, Yannis and Katsoulakis, Markos A.},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  title={Cumulant GAN},
+  year={2022},
+  pages={1-12},
+  doi={10.1109/TNNLS.2022.3161127}}
 ```
 
 
