@@ -59,7 +59,7 @@ To reproduce the achieved results run the [`main.py`](main.py) script with the c
 The output is a directory with some checkpoints during the traininng proccess, the corresponding plots and finally a gif that visualizes the whole training.
 
 | Argument   | Default Value  | Info                                            |Choices
-| ---------- | -------------- | ----------------------------------------------- |--------------------------------------|
+|:----------:|:--------------:| ----------------------------------------------- |:--------------------------:|
 | `--epochs` | 10000          | [int] how many generator iterations to train for|-
 | `--beta`   | 0.0            | [float] cumulant GAN beta parameter             |-
 | `--gamma`  | 0.0            | [float] cumulant GAN gamma parameter            |-
