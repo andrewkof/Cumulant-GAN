@@ -31,7 +31,7 @@ controlled behavior.
 ## GMM8
 ### The target distribution is a mixture of 8 equiprobable and equidistant-from-the-origin Gaussian random variables.
 
-|Wasserstein <br />(β, γ) = (0, 0)    |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)|-4log(1-Hellinger^2) <br />(β, γ) = (0.5, 0.5)
+|Wasserstein Distance <br />(β, γ) = (0, 0)    |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)|-4log(1-Hellinger^2) <br />(β, γ) = (0.5, 0.5)
 :-----------------------------------:|:-----------------------------------------------:|:-------------------------:|:-------------------------------:
 ![Alt-txt](gifs/gmm8/Wass.gif)|![Alt-txt](gifs/gmm8/KLD.gif)|![Alt-txt](gifs/gmm8/rKLD.gif)|![Alt-txt](gifs/gmm8/Hellinger.gif)
 
@@ -40,7 +40,7 @@ controlled behavior.
 ## TMM6
 ### The target distribution is a mixture of 6 equiprobable Student’s t distributions. The characteristic property of this distribution is that it is heavy-tailed. Thus samples can be observed far from the mean value.
 
-Wasserstein<br />(β, γ) = (0, 0) |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)            |-4log(1-Hellinger^2) <br />(β, γ) = (0.5, 0.5)
+Wasserstein Distance<br />(β, γ) = (0, 0) |Kullback-Leibler Divergence <br />(β, γ) = (0, 1)|Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)            |-4log(1-Hellinger^2) <br />(β, γ) = (0.5, 0.5)
 :--------------------------------:|:-----------------------------------------------:|:--------------------------------:|:--------------------------:
 ![Alt-txt](gifs/tmmt6/Wasserstein.gif)|![Alt-txt](gifs/tmmt6/KLD.gif)|![Alt-txt](gifs/tmmt6/rKLD.gif) |![Alt-txt](gifs/tmmt6/Hellinger.gif)
 
@@ -49,7 +49,7 @@ Wasserstein<br />(β, γ) = (0, 0) |Kullback-Leibler Divergence <br />(β, γ) =
 
 
 
- Wasserstein<br />(β, γ) = (0, 0)|Kullback-Leibler Divergence <br />(β, γ) = (0, 1) |Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)|-4log(1-Hellinger^2) <br />(β, γ) = (0.5, 0.5)
+ Wasserstein Distance<br />(β, γ) = (0, 0)|Kullback-Leibler Divergence <br />(β, γ) = (0, 1) |Reverse Kullback-Leibler Divergence <br /> (β, γ) = (1, 0)|-4log(1-Hellinger^2) <br />(β, γ) = (0.5, 0.5)
 :---------------------------------------------------:|:------------------------------------------------:|:--------------------------------:|:--------------------------:
 ![Alt-txt](gifs/swiss_roll/Wasserstein.gif) | ![Alt-txt](gifs/swiss_roll/KLD.gif)|![Alt-txt](gifs/swiss_roll/rKLD.gif)|![Alt-txt](gifs/swiss_roll/Hellinger.gif)
 
