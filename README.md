@@ -76,12 +76,3 @@ The output is a directory with some checkpoints during the traininng proccess, t
   pages={1-12},
   doi={10.1109/TNNLS.2022.3161127}}
 ```
-
-
-
-
-
-
-
-
-
