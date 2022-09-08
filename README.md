@@ -69,7 +69,7 @@ The output is a directory with some checkpoints during the traininng proccess, t
 # References
 ```
 @ARTICLE{9750393,
-  author={Pantazis, Yannis and Paul, Dipjyoti and Fasoulakis, Michail and Stylianou, Yannis and Katsoulakis, Markos A.},
+  author={Pantazis Yannis, Paul Dipjyoti, Fasoulakis Michail, Stylianou Yannis and Katsoulakis Markos A.},
   journal={IEEE Transactions on Neural Networks and Learning Systems},
   title={Cumulant GAN},
   year={2022},
