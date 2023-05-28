@@ -1,7 +1,7 @@
 
 # Mode Covering versus Mode Selection
 
-Demostration examples from [Cumulant GAN](https://arxiv.org/pdf/2011.08441.pdf) paper.
+Demostration examples from [Cumulant GAN](https://arxiv.org/pdf/2006.06625.pdf) paper.
 * Code for all demonstrations can be found in [Dip's repo](https://github.com/dipjyoti92/CumulantGAN/tree/main/).
 * TensorFlow 2 implementation.
 
