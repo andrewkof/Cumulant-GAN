@@ -1,4 +1,5 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![CircleCI](https://img.shields.io/circleci/build/github/andrewkof/Cumulant-GAN.svg)
 
 # Mode Covering versus Mode Selection
 
