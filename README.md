@@ -1,5 +1,4 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Build Status](https://img.shields.io/travis/andrewkof/Cumulant-GAN.svg)
 
 # Mode Covering versus Mode Selection
 
