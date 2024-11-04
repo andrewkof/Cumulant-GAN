@@ -1,3 +1,4 @@
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 # Mode Covering versus Mode Selection
 
@@ -76,3 +77,7 @@ The output is a directory with some checkpoints during the traininng proccess, t
   pages={1-12},
   doi={10.1109/TNNLS.2022.3161127}}
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
